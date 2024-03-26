@@ -1,0 +1,8 @@
+sphinx
+sphinx_rtd_theme
+sphinx_rtd_dark_mode
+myst_parser
+sphinx_copybutton
+sphinx_design
+sphinx_inline_tabs
+furo
