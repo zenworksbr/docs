@@ -2,6 +2,7 @@
         :hidden:
         :caption: Tópicos:
 
+        glossario
         regras
         tutorial
         texturas
