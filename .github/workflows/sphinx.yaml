@@ -24,11 +24,11 @@ jobs:
       if: github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish-branch: gh-pages
+        publish_branch: gh-pages
         publish_dir: /build/html
         cname: docs.zenworks.com.br
-        enable-jekyll: true
-        force-orphan: true
+        enable_jekyll: true
+        force_orphan: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
         commit_message: ${{ github.event.head_commit.message }}
