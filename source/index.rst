@@ -8,9 +8,9 @@
         texturas
         grupos
 
-******
-Índice
-******
+***************
+Messagem do dia
+***************
 
 ========
 Prefácio

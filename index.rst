@@ -225,7 +225,7 @@ Em português, "registros de danos", é uma ferramenta presente no servidor que 
 ~~~~~~~~~~~~~~~~~~~
 Em português, "cena de morte", é uma ferramenta, também fornecida pelo damagelog que realiza uma espécie de gravação dos momentos próximos à morte de um jogador na rodada, de forma a possibilitar análises para os Staffs e, até mesmo, para os jogadores descobrirem quem os matou, quando são mortos de forma que o damagelog, por algum motivo, não possa registrar quem foi o autor.
 
-.. _anti_jogo:
+.. _antijogo:
 
 2.2.16 Antijogo
 ~~~~~~~~~~~~~~~~~
