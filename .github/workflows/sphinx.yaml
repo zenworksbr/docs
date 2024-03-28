@@ -25,7 +25,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
-        publish_dir: html-docs
+        publish_dir: build/html/
         cname: docs.zenworks.com.br
         enable_jekyll: true
         force_orphan: true
