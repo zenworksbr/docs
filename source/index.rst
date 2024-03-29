@@ -6,7 +6,8 @@
         regras
         tutorial
         texturas
-        grupos
+        branch64
+        desempenho
 
 ***************
 Messagem do dia
