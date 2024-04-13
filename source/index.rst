@@ -13,26 +13,24 @@
 Messagem do dia
 ***************
 
-========
-Prefácio
-========
+========================
+PLAYTEST PÚBLICO DO ZEN!
+========================
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+Seja bem-vindo ao nosso primeiro playtest público!!
 
-===============
-Outro subtópico
-===============
+Estamos realizando testes no servidor, e queremos receber feedback do máximo de jogadores que for possível!
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+Portanto, lembre-se que tudo que estiver vendo aqui agora, está sujeito a mudanças futuras, e não necessariamente refletirá no lançamento oficial do servidor.
 
-=================
-Mais um subtópico
-=================
+Por favor, pedimos que entre em nosso Discord, e nos dê o feedback devido no canal apontado.
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+********
+Feedback
+********
 
-=======================
-Ainda mais um subtópico
-=======================
+Pedimos que todo feedback que for nos dar, faça tanto em voz dentro do servidor, quanto no chat **feedback_playtest** em nosso Discord.
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+**Para ter acesso a esse canal, você deve reagir ao cargo TTT no canal de cargos, em nosso Discord.**
+
+Nosso convite pode ser acessado aqui, https://discord.com/invite/zenworks, e, também, via comando dentro do servidor: !discord
