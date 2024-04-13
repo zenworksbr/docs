@@ -23,7 +23,7 @@ Estamos realizando testes no servidor, e queremos receber feedback do máximo de
 
 Portanto, lembre-se que tudo que estiver vendo aqui agora, está sujeito a mudanças futuras, e não necessariamente refletirá no lançamento oficial do servidor.
 
-Por favor, pedimos que entre em nosso Discord, e nos dê o feedback devido no canal apontado.
+Por favor, pedimos que entre em nosso Discord, e nos dê o feedback devido no canal apontado abaixo.
 
 ********
 Feedback
