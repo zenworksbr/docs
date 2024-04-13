@@ -13,9 +13,12 @@ Recomendamos este por motivos de segurança e praticidade; sem propagandas ou ar
 **O vídeo não é de nossa autoria. Todos os créditos vão para o devido autor do mesmo.**
 
 **Guia prático em etapas:**
-- Baixe o arquivo compactado acima;
-- copie o arquivo baixado para a pasta *addons* do seu Garry's Mod; e
-- extraia o arquivo na pasta addons e garanta que a estrutura fique assim:
+
+- **Baixe o arquivo compactado acima;**
+
+- **copie o arquivo baixado para a pasta *addons* do seu Garry's Mod; e**
+
+- **extraia o arquivo na pasta addons e garanta que a estrutura fique assim:**
 
 .. code::
 
@@ -25,8 +28,7 @@ Recomendamos este por motivos de segurança e praticidade; sem propagandas ou ar
         ⮡ 🗁 particles/
         ⮡ 🗁 sound/
 
-.. admonition:: 
-        :class: warning
+.. important:: 
         
         verifique e garanta que a estrutura NÃO fique assim:
 
