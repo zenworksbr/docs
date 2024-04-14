@@ -4,9 +4,11 @@
 
         glossario
         regras
-        tutorial
         texturas
+        guia_staff
+        tutorial
         branch64
+        binds
         desempenho
 
 ***************

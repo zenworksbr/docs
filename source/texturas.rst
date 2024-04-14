@@ -10,6 +10,7 @@ Caso você esteja experienciando bugs, erros e texturas rosa e preto, você deve
 Recomendamos este por motivos de segurança e praticidade; sem propagandas ou arquivos estranhos/possivelmente maliciosos.
 
 .. _Tutorial em vídeo: https://www.youtube.com/watch?v=hge8ZWhOvcA
+
 **O vídeo não é de nossa autoria. Todos os créditos vão para o devido autor do mesmo.**
 
 **Guia prático em etapas:**
