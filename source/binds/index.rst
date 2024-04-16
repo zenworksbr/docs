@@ -1,3 +1,8 @@
+.. toctree::
+        :hidden:
+
+        *
+
 **********************
 Guia avançado de binds
 **********************

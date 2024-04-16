@@ -1,3 +1,8 @@
+.. toctree::
+        :hidden:
+
+        *
+
 ******************************
 Guia de melhoria de desempenho
 ******************************

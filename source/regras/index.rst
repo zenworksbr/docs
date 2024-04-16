@@ -1,3 +1,8 @@
+.. toctree::
+        :hidden:
+
+        *
+
 ******************
 Regras do servidor
 ******************

@@ -1,3 +1,8 @@
+.. toctree::
+        :hidden:
+
+        *
+
 ***************
 Guia para Staff
 ***************

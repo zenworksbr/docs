@@ -1,3 +1,8 @@
+.. toctree::
+        :hidden:
+
+        *
+
 ************************
 Bugs gráficos e texturas
 ************************
