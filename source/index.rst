@@ -34,25 +34,25 @@ NOVIDADES DE HOJE
 
 Para o playtest de hoje, temos alguns recursos para teste:
 
-modelos novos para Freezegun, DNA Scanner, Newton, Teletransportador, Arma de Dardos, Flare Gun e Golden Gun!
-novo efeito visual em jogadores testados por Golden Gun!
-opção para utilizar a mira customizada do Garry's Mod em vez a padrão do TTT (Menu F1)!
-opção para ver corpo inteiro do personagem em primeira pessoa (Menu F1)!
-opção para ver armas no lado esquerdo da tela (Menu F1)!
-Zap Grenade - uma granada que eletrifica jogadores e os faz soltar a arma utilizada!
-algumas armas M9k foram removidas, e ainda mais serão para que os downloads do servidor sejam mais leves!
-NOVOS MAPAS: 
-ttt_neptunia, 
-ttt_the_room_v2, 
-ttt_lumos, 
-ttt_concept_c8, 
-ttt_at_lie_ntis,
-ttt_temple, 
-ttt_tilted_towers, 
-ttt_hotel_poolparty, 
-mu_resort_hotel_v3,
-ttt_byperbasedome_v1,
-ttt_the_room_v3
+- modelos novos para Freezegun, DNA Scanner, Newton, Teletransportador, Arma de Dardos, Flare Gun e Golden Gun!
+- novo efeito visual em jogadores testados por Golden Gun!
+- opção para utilizar a mira customizada do Garry's Mod em vez a padrão do TTT (Menu F1)!
+- opção para ver corpo inteiro do personagem em primeira pessoa (Menu F1)!
+- opção para ver armas no lado esquerdo da tela (Menu F1)!
+- Zap Grenade - uma granada que eletrifica jogadores e os faz soltar a arma utilizada!
+- algumas armas M9k foram removidas, e ainda mais serão para que os downloads do servidor sejam mais leves!
+- NOVOS MAPAS: 
+        + ttt_neptunia, 
+        + ttt_the_room_v2, 
+        + ttt_lumos, 
+        + ttt_concept_c8, 
+        + ttt_at_lie_ntis,
+        + ttt_temple, 
+        + ttt_tilted_towers, 
+        + ttt_hotel_poolparty, 
+        + mu_resort_hotel_v3,
+        + ttt_byperbasedome_v1,
+        + ttt_the_room_v3
 
 ========
 Feedback
