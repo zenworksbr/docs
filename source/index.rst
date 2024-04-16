@@ -34,21 +34,21 @@ NOVIDADES DE HOJE
 
 Para o playtest de hoje, temos alguns recursos para teste:
 
-- MODELOS NOVOS: 
+- MODELOS NOVOS:
         + Freezegun,
         + DNA Scanner,
         + Newton, 
         + Teletransportador, 
         + Arma de Dardos, 
         + Flare Gun,
-        + Golden Gun!
+        + Golden Gun
 - novo efeito visual em jogadores testados por Golden Gun!
 - opção para utilizar a mira customizada do Garry's Mod em vez a padrão do TTT (Menu F1)!
 - opção para ver corpo inteiro do personagem em primeira pessoa (Menu F1)!
 - opção para ver armas no lado esquerdo da tela (Menu F1)!
 - Zap Grenade - uma granada que eletrifica jogadores e os faz soltar a arma utilizada!
 - algumas armas M9k foram removidas, e ainda mais serão para que os downloads do servidor sejam mais leves!
-- NOVOS MAPAS: 
+- NOVOS MAPAS:
         + ttt_neptunia, 
         + ttt_the_room_v2, 
         + ttt_lumos, 
