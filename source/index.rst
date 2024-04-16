@@ -2,14 +2,15 @@
         :hidden:
         :caption: Tópicos:
 
-        glossario
-        regras
-        texturas
-        guia_staff
-        tutorial
-        branch64
-        binds
-        desempenho
+        discord
+        glossario/index
+        regras/index
+        texturas/index
+        desempenho/index
+        guia-staff/index
+        tutorial/index      
+        chromium/index
+        binds/index
 
 ***************
 Messagem do dia
@@ -27,9 +28,9 @@ Portanto, lembre-se que tudo que estiver vendo aqui agora, está sujeito a mudan
 
 Por favor, pedimos que entre em nosso Discord, e nos dê o feedback devido no canal apontado abaixo.
 
-********
+========
 Feedback
-********
+========
 
 Pedimos que todo feedback que for nos dar, faça tanto em voz dentro do servidor, quanto no chat **feedback_playtest** em nosso Discord.
 
