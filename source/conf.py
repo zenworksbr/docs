@@ -51,6 +51,8 @@ html_theme_options = {
     },
     'dark_css_variables': {
         # f05
+        "color-code-background": "#1a162",
+        "color-code-foreground": "#1a162c",
         "color-problematic": "#ee5151",
         "color-foreground-primary": "#cecece",
         "color-foreground-secondary": "#cecece",
@@ -70,7 +72,7 @@ html_theme_options = {
         "color-guilabel-background": "#08356380",
         "color-guilabel-border": "#13395f80",
         "color-highlight-on-target": "#330",
-        "color-admonition-background": "#18181a",
+        "color-admonition-background": "#1a162c",
         "color-card-background": "#18181a"
     }
 }
