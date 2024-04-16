@@ -34,7 +34,14 @@ NOVIDADES DE HOJE
 
 Para o playtest de hoje, temos alguns recursos para teste:
 
-- modelos novos para Freezegun, DNA Scanner, Newton, Teletransportador, Arma de Dardos, Flare Gun e Golden Gun!
+- MODELOS NOVOS: 
+        + Freezegun,
+        + DNA Scanner,
+        + Newton, 
+        + Teletransportador, 
+        + Arma de Dardos, 
+        + Flare Gun,
+        + Golden Gun!
 - novo efeito visual em jogadores testados por Golden Gun!
 - opção para utilizar a mira customizada do Garry's Mod em vez a padrão do TTT (Menu F1)!
 - opção para ver corpo inteiro do personagem em primeira pessoa (Menu F1)!
