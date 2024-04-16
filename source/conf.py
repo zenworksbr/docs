@@ -85,6 +85,6 @@ html_favicon = '_static/favicon.png'
 html_css_files = ['_static/css/custom.css']
 
 pygments_style = "sphinx"
-# pygments_dark_style = "dracula"
+pygments_dark_style = "dracula"
 
 html_last_updated_fmt = ''
