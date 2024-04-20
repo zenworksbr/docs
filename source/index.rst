@@ -3,14 +3,11 @@
         :caption: Tópicos:
 
         discord
-        glossario/index
         regras/index
         texturas/index
         desempenho/index
-        guia-staff/index
         tutorial/index      
         chromium/index
-        binds/index
 
 ***************
 Messagem do dia

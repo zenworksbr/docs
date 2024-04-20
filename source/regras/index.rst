@@ -1,12 +1,15 @@
 .. toctree::
-
+        :hidden:
+        :maxdepth: 1
+        
+        index
         inocentes
         detetives
         traidores
         punicoes
         glossario
         banimentos
-        provando-sua-doacao
+        doacao
 
 ******************
 Regras do servidor
@@ -19,9 +22,9 @@ Regras do servidor
 #. **Jogo limpo**. Não utilize trapaças ou auxílios externos, de qualquer natureza. Esta é a única infração que, dadas provas irrefutáveis, resultará em BANIMENTO PERMANENTE.
 
 #. **Abuso de bugs**. Não utilize ou abuse deles para ganhar vantagens; exemplo: usar bugs de movimentação para sair das áreas normais do mapa (lugares altos e/ou acessíveis com discomb e que sejam visíveis não se encaixam nesta regra).
+        .. admonition:: Exceções
 
-        .. warning::
-                São exceções prop-fly, prop-surf e propkill, que são práticas permitidas, mas que podem resultar na sua morte ou em um KOS, dependendo de como as praticar.
+                Prop-fly, prop-surf e propkill, que são práticas permitidas, mas que podem resultar na sua morte ou em um KOS, dependendo de como as praticar.
 
 #. **Metagaming**. Não faça **Ghosting** ou **Time** com outros jogadores sem ser pelo próprio modo.
 
