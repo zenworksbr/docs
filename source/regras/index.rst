@@ -1,15 +1,14 @@
 .. toctree::
         :hidden:
-        :maxdepth: 1
-        
-        index
-        inocentes
-        detetives
-        traidores
-        punicoes
-        glossario
-        banimentos
-        doacao
+        :maxdepth: 2
+
+        /regras/inocentes
+        /regras/detetives
+        /regras/traidores
+        /regras/punicoes
+        /regras/glossario
+        /regras/banimentos
+        /regras/doacao
 
 ******************
 Regras do servidor
