@@ -23,11 +23,13 @@ Regras do servidor
 
 #. **Auto-kos**. Somente será considerado válido caso seja ito algo como "SOU TRAIDOR/KOS EM MIM MESMO". Quaisquer formas indiretas de "auto-kos" são inválidas.
 
-#. **Happy hour**. Todos os dias, em horários que haja menos de 8 jogadores ou após à 00:00, nenhuma regra de **modo de jogo** deverá ser obrigatória no servidor. Porém, caso todos estejam jogando normalmente, se você for o único babaca, poderá ser expulso ou banido por um dia :)
+#. **Happy hour**. Todos os dias, em horários que haja menos de 8 jogadores ou após à 00:00, nenhuma regra de **modo de jogo** deverá ser obrigatória no servidor.
+        .. warning::
+                Este item não se aplica caso os jogadores estejam jogando normalmente e queiram continuar assim.
 
 .. toctree::
         :titlesonly:
-        :caption: Outras seções
+        :caption: Regras específicas
         :glob:
 
         inocentes

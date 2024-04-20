@@ -3,6 +3,9 @@
 
         *
 
+.. _Tutorial: https://www.youtube.com/watch?v=hge8ZWhOvcA
+.. _Download: https://drive.google.com/drive/folders/1AKsfEleOyUztG9YpTvUKbrL8EiizR1dZ?usp=sharing
+
 ************************
 Bugs gráficos e texturas
 ************************
@@ -11,10 +14,10 @@ Caso você esteja experienciando bugs, erros e texturas rosa e preto, você deve
 
 **Para manter uma melhor didática, este tutorial estará disponível aqui por texto em etapas e, também, por vídeo. Veja abaixo:**
 
-:download: Link para download dos arquivos necessários (Google Drive) <https://drive.google.com/drive/folders/1AKsfEleOyUztG9YpTvUKbrL8EiizR1dZ?usp=sharing> 
+Link para Download_ dos arquivos necessários (Google Drive)
 Recomendamos este por motivos de segurança e praticidade; sem propagandas ou arquivos estranhos/possivelmente maliciosos.
 
-.. _Tutorial em vídeo: https://www.youtube.com/watch?v=hge8ZWhOvcA
+Também oferecemos um Tutorial_ em vídeo.
 
 **O vídeo não é de nossa autoria. Todos os créditos vão para o devido autor do mesmo.**
 

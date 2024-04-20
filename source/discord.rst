@@ -1,8 +1,10 @@
+.. _Discord: https://discord.com/invite/zenworks
+
 *********************
 Discord da comunidade
 *********************
 
-Nosso .. _Discord: https://discord.com/invite/zenworks é nossa principal forma de cominicação e de quaisquer eventos que criamos.
+Nosso Discord_ é nossa principal forma de cominicação e de quaisquer eventos que criamos.
 
 Por lá, fazemos eventos, nos juntamos para conversar e para jogar outros jogos.
 

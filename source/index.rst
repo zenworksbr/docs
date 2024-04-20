@@ -9,6 +9,8 @@
         tutorial/index      
         chromium/index
 
+.. _Discord: https://discord.com/invite/zenworks
+
 ***************
 Messagem do dia
 ***************
@@ -78,6 +80,6 @@ Pedimos que todo feedback que for nos dar, faça tanto em voz dentro do servidor
 
 **Para ter acesso a esse canal, você deve reagir ao cargo TTT no canal de cargos, em nosso Discord.**
 
-Nosso convite pode ser acessado aqui, https://discord.com/invite/zenworks, e, também, via comando dentro do servidor: !discord
+Nosso convite pode ser acessado aqui, Discord_, e, também, via comando dentro do servidor: !discord
 
 **Quaisquer dúvidas, pergunte a um Fundador ou Trial Mod. presente!**
