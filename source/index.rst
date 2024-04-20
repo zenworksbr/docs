@@ -17,10 +17,10 @@ Messagem do dia
 ***************
 
 ========================
-PLAYTEST PÚBLICO DO ZEN!
+BETA PÚBLICO DO ZEN!
 ========================
 
-Seja bem-vindo ao nosso primeiro playtest público!!
+Seja bem-vindo ao nosso (possivelmente) último beta público!!
 
 Estamos realizando testes no servidor, e queremos receber feedback do máximo de jogadores que for possível!
 
@@ -32,7 +32,19 @@ Por favor, pedimos que entre em nosso Discord, e nos dê o feedback devido no ca
 NOVIDADES DE HOJE
 =================
 
-Para o playtest de hoje, temos alguns recursos para teste:
+Para o beta de hoje, temos alguns recursos para teste:
+
+- Distribuição e seleção de loadout de armas iniciais (Menu F1)!
+- Sistema avançado de sprays (!spray) - é possível utilizar sprays a partir de links agora!
+- Alguns balanceamentos realizados, e alguns feedbacks necessários para finalizarmos as armas!
+
+Por hoje é só, mas estamos trabalhando em um sistema de mapas para que o servidor possa ser aberto! O que deve ocorrer amanhã!
+Divirta-se!
+
+
+===========================
+NOVIDADES DO DIA 17/04/2024
+===========================
 
 - MODELOS NOVOS:
         + Freezegun,
