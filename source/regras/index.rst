@@ -2,13 +2,7 @@
         :hidden:
         :maxdepth: 2
 
-        /regras/inocentes
-        /regras/detetives
-        /regras/traidores
-        /regras/punicoes
-        /regras/glossario
-        /regras/banimentos
-        /regras/doacao
+        *
 
 ******************
 Regras do servidor
