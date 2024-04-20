@@ -15,20 +15,23 @@
 Messagem do dia
 ***************
 
-========================
-BETA PÚBLICO DO ZEN!
-========================
+=========================
+LANÇAMENTO OFICIAL DO ZEN
+=========================
 
-Seja bem-vindo ao nosso (possivelmente) último beta público!!
+Hoje, dia 20/04/2024 finalmente lançamos oficialmente o servidor!
 
-Estamos realizando testes no servidor, e queremos receber feedback do máximo de jogadores que for possível!
+Os recursos mais importantes que queríamos garantir no servidor estão funcionando corretamente, de forma estável e otimizada!
 
-Portanto, lembre-se que tudo que estiver vendo aqui agora, está sujeito a mudanças futuras, e não necessariamente refletirá no lançamento oficial do servidor.
+Entretanto, por ora, removemos o sistema de loadout de armas iniciais (Menu F1) para que possamos corrigi-lo.
 
-Por favor, pedimos que entre em nosso Discord, e nos dê o feedback devido no canal apontado abaixo.
+Agradecemos a todos por participar dos playtests e de nosso beta público. Agora, é só aproveitar!
+
+Fiquem zen.
+Tamo junto.
 
 =================
-NOVIDADES DE HOJE
+NOVIDADES DO DIA 19/04/2024
 =================
 
 Para o beta de hoje, temos alguns recursos para teste:
