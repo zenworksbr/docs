@@ -1,8 +1,14 @@
 .. toctree::
         :hidden:
-        :maxdepth: 2
+        :glob:
 
-        *
+        inocentes
+        detetives
+        traidores
+        punicoes
+        glossario
+        banimentos
+        doacao
 
 ******************
 Regras do servidor
