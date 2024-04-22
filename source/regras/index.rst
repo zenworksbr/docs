@@ -21,7 +21,7 @@ Regras do servidor
 
 #. **Sprays devidos**. Não utilize sprays inapropriados (pornográficos, violentos etc.) ou com vídeos estourados. 
 
-#. **Auto-kos**. Somente será considerado válido caso seja ito algo como "SOU TRAIDOR/KOS EM MIM MESMO". Quaisquer formas indiretas de "auto-kos" são inválidas.
+#. **Auto-kos**. Somente será considerado válido caso seja dito algo como "SOU TRAIDOR/KOS EM MIM MESMO". Quaisquer formas indiretas de "auto-kos" são inválidas.
 
 #. **Happy hour**. Todos os dias, em horários que haja menos de 8 jogadores ou após à 00:00, nenhuma regra de **modo de jogo** deverá ser obrigatória no servidor.
         .. warning::
