@@ -8,6 +8,7 @@
         desempenho/index
         tutorial/index      
         chromium/index
+        outros/index
 
 .. _Discord: https://discord.com/invite/zenworks
 
