@@ -10,24 +10,32 @@
         chromium/index
 
 .. _Discord: https://discord.com/invite/zenworks
+.. _Kobrax: http://steamcommunity.com/profiles/76561198204849308
 
 ***************
 Messagem do dia
 ***************
 
-=========================
-LANÇAMENTO OFICIAL DO ZEN
-=========================
+=================
+NOVIDADES DE HOJE
+=================
 
-Hoje, dia 20/04/2024 finalmente lançamos oficialmente o servidor!
+Hoje, dia 25/04/2024, estamos lançando mais uma leva de novidades no servidor!
 
-Os recursos mais importantes que queríamos garantir no servidor estão funcionando corretamente, de forma estável e otimizada!
+Estejam atentos, testem e nos deem feedback das seguintes alterações:
 
-Entretanto, por ora, removemos o sistema de loadout de armas iniciais (Menu F1) para que possamos corrigi-lo.
+- Nova mensagem de aviso para último jogador Inocente/Detetive vivo quando há mais de um Traidor vivo.
+- Notificações para quando um corpo de Traidor é identificado.
+- Notificações no início das rodadas avisando quantidade de jogadores vivos, Inocentes, Traidores e Detetives.
+- Novo sistema de votação de mapas (novas funcionalidades serão implementadas em breve).
+- Novo modelo especial para Golden Gun (Créditos ao Kobrax_)!!!
 
-Agradecemos a todos por participar dos playtests e de nosso beta público. Agora, é só aproveitar!
+Por enquanto, ainda está de fora o sistema de loadout de armas iniciais e também há outros recursos em desenvolvimento que chegarão em breve!
+
+Também haverá um novo menu para **criar e editar suas binds em jogo** pelo menu **F1**.
 
 Fiquem zen.
+
 Tamo junto.
 
 =================
@@ -54,8 +62,7 @@ NOVIDADES DO DIA 17/04/2024
         + Newton, 
         + Teletransportador, 
         + Arma de Dardos, 
-        + Flare Gun,
-        + Golden Gun
+        + Flare Gun
 - novo efeito visual em jogadores testados por Golden Gun!
 - opção para utilizar a mira customizada do Garry's Mod em vez a padrão do TTT (Menu F1)!
 - opção para ver corpo inteiro do personagem em primeira pessoa (Menu F1)!
@@ -63,17 +70,9 @@ NOVIDADES DO DIA 17/04/2024
 - Zap Grenade - uma granada que eletrifica jogadores e os faz soltar a arma utilizada!
 - algumas armas M9k foram removidas, e ainda mais serão para que os downloads do servidor sejam mais leves!
 - NOVOS MAPAS:
-        + ttt_neptunia, 
-        + ttt_the_room_v2, 
-        + ttt_lumos, 
-        + ttt_concept_c8, 
-        + ttt_at_lie_ntis,
         + ttt_temple, 
         + ttt_tilted_towers, 
-        + ttt_hotel_poolparty, 
         + mu_resort_hotel_v3,
-        + ttt_byperbasedome_v1,
-        + ttt_the_room_v3
 
 ========
 Feedback
@@ -85,4 +84,4 @@ Pedimos que todo feedback que for nos dar, faça tanto em voz dentro do servidor
 
 Nosso convite pode ser acessado aqui, Discord_, e, também, via comando dentro do servidor: !discord
 
-**Quaisquer dúvidas, pergunte a um Fundador ou Trial Mod. presente!**
+**Quaisquer dúvidas, pergunte a Staff presente!**
