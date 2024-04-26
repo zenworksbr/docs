@@ -16,11 +16,11 @@
 Messagem do dia
 ***************
 
-=================
-NOVIDADES DE HOJE
-=================
+===========================
+NOVIDADES DO DIA 25/04/2024
+===========================
 
-Hoje, dia 25/04/2024, estamos lançando mais uma leva de novidades no servidor!
+Estamos lançando mais uma leva de novidades no servidor!
 
 Estejam atentos, testem e nos deem feedback das seguintes alterações:
 
