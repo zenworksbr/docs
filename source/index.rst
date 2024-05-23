@@ -8,6 +8,7 @@
         desempenho/index
         tutorial/index      
         chromium/index
+        outros/index
 
 .. _Discord: https://discord.com/invite/zenworks
 .. _Kobrax: http://steamcommunity.com/profiles/76561198204849308
