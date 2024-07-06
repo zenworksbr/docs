@@ -1,5 +1,5 @@
 *******************
-Regras de traidores
+Regras de Traidores
 *******************
 
 #. Praticamente tem as regras inversas às dos **Inocentes e Detetives**.
