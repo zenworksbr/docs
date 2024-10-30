@@ -43,8 +43,6 @@ html_theme = 'furo'
 html_title = 'Zenworks'
 
 html_theme_options = {
-    'logo_only': True,
-    'display_version': False,
     'prev_next_buttons_location': 'bottom',
     'light_css_variables': {
             
