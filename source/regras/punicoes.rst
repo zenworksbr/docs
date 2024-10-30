@@ -28,4 +28,4 @@ Lista de punições
         .. warning::
                 Ofensa não é falar palavrão. Ofensa é ferir os sentimentos da outra pessoa.
 
-#. RDM em AFK: 1 slay **extra**.
+#. RDM ou D.A. em AFK: 1 slay **extra**.
