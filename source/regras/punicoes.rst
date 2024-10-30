@@ -27,3 +27,5 @@ Lista de punições
 #. Ofensa em report: 1 slay **extra**.
         .. warning::
                 Ofensa não é falar palavrão. Ofensa é ferir os sentimentos da outra pessoa.
+
+#. RDM em AFK: 1 slay **extra**.
