@@ -8,7 +8,7 @@ Agradecemos imensamente qualquer tipo de colaboração para o nosso projeto. Est
 
 Porém, isso leva tempo e custa dinheiro, bastante!
 
-Caso tenha interesse e possibilidade, **vá neste link_** e nos envie sua colaboração e seu link do perfil Steam ou Discord!
+Caso tenha interesse e possibilidade, vá neste link_ e nos envie sua colaboração e seu link do perfil Steam ou Discord!
 
 Para doações referentes a nossos servidores de jogos, para cada R$10 doados, você terá benefícios e cargo destacado durante 30 dias nesse servidor.
 
