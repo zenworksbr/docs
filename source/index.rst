@@ -2,6 +2,7 @@
         :hidden:
         :caption: Tópicos:
 
+        doacoes
         discord
         regras/index
         texturas/index
