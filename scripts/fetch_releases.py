@@ -122,7 +122,7 @@ def generate_rst(releases: list) -> str:
     lines.append("Novidades")
     lines.append("*********")
     lines.append("")
-    lines.append("Acompanhe as últimas atualizações do servidor Zenworks TTT.")
+    lines.append("Acompanhe as últimas atualizações do servidor zenworks.")
     lines.append("")
     
     if not releases:
