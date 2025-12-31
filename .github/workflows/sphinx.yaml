@@ -1,6 +1,13 @@
 name: "Sphinx: Render docs"
 
-on: push
+on:
+  push:
+    branches:
+      - master
+      - main
+  repository_dispatch:
+    types: [new-release]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -9,19 +16,34 @@ jobs:
       contents: write
     steps:
     - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Fetch Releases
+      env:
+        ADDONS_PAT: ${{ secrets.ADDONS_PAT }}
+      run: |
+        python scripts/fetch_releases.py
+      continue-on-error: true
+
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: '.'
         build-command: "make html"
+
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: html-docs
         path: build/html/
+
     - name: Pages Deploy
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || github.event_name == 'repository_dispatch'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
@@ -31,4 +53,4 @@ jobs:
         force_orphan: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: ${{ github.event.head_commit.message }}
+        commit_message: ${{ github.event.head_commit.message || 'Update docs from release' }}
