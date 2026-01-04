@@ -1,0 +1,26 @@
+*********
+Novidades
+*********
+
+Acompanhe as últimas atualizações do servidor zenworks.
+
+=================================
+v1.103.1 ~ v1.103.10 (04/01/2026)
+=================================
+
+**Correções:**
+
+- **specdm:** implementar sistema de spawn robusto para ghosts (`b715ccc <https://github.com/zenworksbr/addons/commit/b715ccc5bfcd1e6503e3ffe87293724472d79e61>`_)
+- **ttt:** corrigir bugs de spawn no jogo normal (`4aff2fb <https://github.com/zenworksbr/addons/commit/4aff2fb188aea899fdcaf23f8188d57b0aa54890>`_)
+- **specdm:** ajustar caminho do ícone da awp (`24cedb2 <https://github.com/zenworksbr/addons/commit/24cedb2daef6937cd52118a7ec02cf2130281229>`_)
+- **weapon:** ajustar slot da AWP ghost (`2d978e9 <https://github.com/zenworksbr/addons/commit/2d978e9b57663fd5b79be6854501ae981ca6508a>`_)
+- **csgo_knives:** usar função local IsGhost para evitar nil value (`e24e0b1 <https://github.com/zenworksbr/addons/commit/e24e0b159b2e6755dc7efd9de852ee29da534f40>`_)
+- **zen_specdm:** corrigir sintaxe duplicada do end no cliente (`a0bff14 <https://github.com/zenworksbr/addons/commit/a0bff14479226d57b2e37a691e2b94b4f7264c4a>`_)
+- **zen_specdm:** corrigir spawn e proteção de invencibilidade (`8ca2627 <https://github.com/zenworksbr/addons/commit/8ca26276a50c60436a785ba458f14777ae1f8304>`_)
+- **specdm:** corrigir bug de voo e restaurar visibilidade do HUD para espectadores (`cd2615d <https://github.com/zenworksbr/addons/commit/cd2615db48d4fa31ae5c499961f5e79405ea3df4>`_)
+- **hud:** corrigir erro de lua bind_entry_focus e aplicar novo layout do hub (`98f7690 <https://github.com/zenworksbr/addons/commit/98f769019788048ef72c1bcaab97fc74826ed255>`_)
+- **specdm:** restaurar comportamento original e efeitos visuais (`7912a85 <https://github.com/zenworksbr/addons/commit/7912a85bbeadbb4c828d7d9f265a4364d459def2>`_)
+- **dm:** corrigir erros de nil value (`d32caec <https://github.com/zenworksbr/addons/commit/d32caec2ef687b3e644c20616a60bd1d431020de>`_)
+- **hud:** varredura completa e correção de segurança IsGhost em todos os módulos zenhud (`cfd4a0f <https://github.com/zenworksbr/addons/commit/cfd4a0f67479cef251ab7a5f16312bbce7a03ba8>`_)
+- **specdm:** garantir que o texto e a tecla V funcionem para todos os estados de morte (`06b2630 <https://github.com/zenworksbr/addons/commit/06b263072d1cdf02b9942a0fddc6e07ce9e8aadc>`_)
+

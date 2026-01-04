@@ -1,0 +1,711 @@
+<!doctype html>
+<html class="no-js" lang="pt-BR" data-content_root="">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Índice" href="../genindex.html" /><link rel="search" title="Buscar" href="../search.html" /><link rel="next" title="Guia de melhoria de desempenho" href="desempenho.html" /><link rel="prev" title="Sistema de Ranking" href="ranking.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.png"/><!-- Generated with Sphinx 7.1.2 and Furo 2024.01.29 -->
+        <title>ZenShop - Zenworks</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/_static/css/custom.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #282a36;
+  --color-code-foreground: #f8f8f2;
+  --color-code-background: #1a162;
+  --color-code-foreground: #1a162c;
+  --color-problematic: #ee5151;
+  --color-foreground-primary: #cecece;
+  --color-foreground-secondary: #cecece;
+  --color-foreground-muted: #f05727;
+  --color-foreground-border: #cecece;
+  --color-background-primary: #36314d;
+  --color-background-secondary: #1a162c;
+  --color-background-hover: #36314d;
+  --color-background-hover--transparent: #f05727;
+  --color-background-border: rgba(0,0,0,0);
+  --color-background-item: black;
+  --color-announcement-background: #000000dd;
+  --color-announcement-text: #eeebee;
+  --color-brand-primary: #cecece;
+  --color-brand-content: #f05727;
+  --color-highlighted-background: #083563;
+  --color-guilabel-background: #08356380;
+  --color-guilabel-border: #13395f80;
+  --color-highlight-on-target: #330;
+  --color-admonition-background: #1a162c;
+  --color-card-background: #18181a;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #282a36;
+  --color-code-foreground: #f8f8f2;
+  --color-code-background: #1a162;
+  --color-code-foreground: #1a162c;
+  --color-problematic: #ee5151;
+  --color-foreground-primary: #cecece;
+  --color-foreground-secondary: #cecece;
+  --color-foreground-muted: #f05727;
+  --color-foreground-border: #cecece;
+  --color-background-primary: #36314d;
+  --color-background-secondary: #1a162c;
+  --color-background-hover: #36314d;
+  --color-background-hover--transparent: #f05727;
+  --color-background-border: rgba(0,0,0,0);
+  --color-background-item: black;
+  --color-announcement-background: #000000dd;
+  --color-announcement-text: #eeebee;
+  --color-brand-primary: #cecece;
+  --color-brand-content: #f05727;
+  --color-highlighted-background: #083563;
+  --color-guilabel-background: #08356380;
+  --color-guilabel-border: #13395f80;
+  --color-highlight-on-target: #330;
+  --color-admonition-background: #1a162c;
+  --color-card-background: #18181a;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Zenworks</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../_static/favicon.png" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">Zenworks</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Buscar" name="q" aria-label="Buscar">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Tópicos:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../novidades.html">Novidades</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doacoes.html">Doações para o servidor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord.html">Discord da comunidade</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../regras/index.html">Regras do servidor</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Regras do servidor</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../regras/inocentes.html">Regras para Inocentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/detetives.html">Regras para Detetives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/traidores.html">Regras de Traidores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/punicoes.html">Lista de punições</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/glossario.html">Glossário - esclarecimentos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/banimentos.html">Banimentos permanentes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Guias</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Guias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorial.html">Tutorial básico de TTT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ranking.html">Sistema de Ranking</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">ZenShop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="desempenho.html">Guia de melhoria de desempenho</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chromium.html">Correção para páginas WEB do servidor exibidas incorretamente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crosshair.html">Como colocar crosshair personalizado</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="zenshop">
+<h1>ZenShop<a class="headerlink" href="#zenshop" title="Link permanente para este cabeçalho">#</a></h1>
+<p>A ZenShop é a loja do servidor onde você pode adquirir itens cosméticos, pets, trails e muito mais usando seus pontos. Este guia explica todas as formas de ganhar pontos.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Os pontos da ZenShop são <strong>diferentes</strong> dos pontos de ranking! Você pode ter muitos pontos de loja e ainda estar em um rank baixo, e vice-versa.</p>
+</div>
+<section id="formas-de-ganhar-pontos">
+<h2>Formas de Ganhar Pontos<a class="headerlink" href="#formas-de-ganhar-pontos" title="Link permanente para este cabeçalho">#</a></h2>
+<section id="tempo-jogado-presenca">
+<h3>Tempo Jogado (Presença)<a class="headerlink" href="#tempo-jogado-presenca" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Simplesmente jogar no servidor já te recompensa!</p>
+<ul class="simple">
+<li><p><strong>5 pontos</strong> a cada <strong>10 minutos</strong> jogando</p></li>
+<li><p>Você precisa estar <strong>ativo</strong> (não em spectator)</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>Jogar regularmente no servidor é uma forma consistente de acumular pontos ao longo do tempo.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="daily-login-recompensa-diaria">
+<h3>Daily Login (Recompensa Diária)<a class="headerlink" href="#daily-login-recompensa-diaria" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Faça login todos os dias para ganhar pontos extras!</p>
+<div class="table-wrapper colwidths-given docutils container" id="id1">
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Sistema de Daily Login</span><a class="headerlink" href="#id1" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Componente</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Recompensa base</p></td>
+<td><p>20 pontos</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bônus por dia de streak</p></td>
+<td><p>+5 pontos</p></td>
+</tr>
+<tr class="row-even"><td><p>Streak máximo</p></td>
+<td><p>7 dias</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Exemplo de streak:</strong></p>
+<ul class="simple">
+<li><p>Dia 1: 20 pontos</p></li>
+<li><p>Dia 2: 25 pontos (+5 streak)</p></li>
+<li><p>Dia 3: 30 pontos (+10 streak)</p></li>
+<li><p>Dia 4: 35 pontos (+15 streak)</p></li>
+<li><p>Dia 5: 40 pontos (+20 streak)</p></li>
+<li><p>Dia 6: 45 pontos (+25 streak)</p></li>
+<li><p>Dia 7+: 55 pontos (+35 streak máximo)</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>Se você perder um dia, o streak é reiniciado!</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="mvp-melhor-jogador-da-rodada">
+<h3>MVP (Melhor Jogador da Rodada)<a class="headerlink" href="#mvp-melhor-jogador-da-rodada" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Ao final de cada rodada, os 3 melhores jogadores recebem pontos:</p>
+<div class="table-wrapper colwidths-given docutils container" id="id2">
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Recompensas de MVP</span><a class="headerlink" href="#id2" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Posição</p></th>
+<th class="head"><p>Pontos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>🥇 1º Lugar</p></td>
+<td><p>30 pontos</p></td>
+</tr>
+<tr class="row-odd"><td><p>🥈 2º Lugar</p></td>
+<td><p>15 pontos</p></td>
+</tr>
+<tr class="row-even"><td><p>🥉 3º Lugar</p></td>
+<td><p>10 pontos</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>O MVP é calculado com base em kills, assistências, corpos encontrados e outras ações úteis.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>O MVP também concede pontos de <strong>ranking</strong>! Veja o <a class="reference internal" href="ranking.html"><span class="doc">Guia de Ranking</span></a> para mais detalhes.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="contratos">
+<h3>Contratos<a class="headerlink" href="#contratos" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Complete missões especiais durante as rodadas!</p>
+<p><strong>Como acessar:</strong> Os contratos aparecem automaticamente no início da rodada para Traitors e Detetives.</p>
+<p><strong>Comando:</strong> <code class="docutils literal notranslate"><span class="pre">/contract</span></code> - Ver ranking de contratos completos</p>
+<section id="traitor">
+<h4>Traitor<a class="headerlink" href="#traitor" title="Link permanente para este cabeçalho">#</a></h4>
+<p>Recebe um <strong>alvo aleatório</strong> e deve matá-lo com uma <strong>arma específica</strong>.</p>
+<ul class="simple">
+<li><p>Recompensa: <strong>30 pontos</strong></p></li>
+</ul>
+</section>
+<section id="detetive">
+<h4>Detetive<a class="headerlink" href="#detetive" title="Link permanente para este cabeçalho">#</a></h4>
+<p>Recebe um <strong>inocente para proteger</strong> e deve mantê-lo vivo até o final da rodada.</p>
+<ul class="simple">
+<li><p>Recompensa: <strong>25 pontos</strong></p></li>
+</ul>
+</section>
+<section id="missoes-secundarias">
+<h4>Missões Secundárias<a class="headerlink" href="#missoes-secundarias" title="Link permanente para este cabeçalho">#</a></h4>
+<p>Além do contrato principal:</p>
+<ul class="simple">
+<li><p><strong>Traitor:</strong> Armar uma C4</p></li>
+<li><p><strong>Detetive:</strong> Encontrar corpo de Traitor</p></li>
+<li><p>Recompensa: <strong>10 pontos</strong></p></li>
+</ul>
+</section>
+<section id="streak-de-contratos">
+<h4>Streak de Contratos<a class="headerlink" href="#streak-de-contratos" title="Link permanente para este cabeçalho">#</a></h4>
+<p>Complete contratos consecutivos para ganhar bônus!</p>
+<ul class="simple">
+<li><p><strong>+5 pontos</strong> por streak</p></li>
+<li><p>Streak máximo: <strong>5 contratos</strong> (+25 pontos extras)</p></li>
+<li><p>O streak é resetado se você falhar um contrato</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="conquistas-achv">
+<h3>Conquistas (!achv)<a class="headerlink" href="#conquistas-achv" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Desbloqueie conquistas por marcos alcançados e reivindique recompensas!</p>
+<p><strong>Comando:</strong> <code class="docutils literal notranslate"><span class="pre">!achv</span></code> ou <code class="docutils literal notranslate"><span class="pre">/achv</span></code></p>
+<p><strong>Categorias de conquistas:</strong></p>
+<ul class="simple">
+<li><p>Rounds jogados</p></li>
+<li><p>Vitórias</p></li>
+<li><p>Kills totais</p></li>
+<li><p>Traitors mortos</p></li>
+<li><p>Corpos encontrados</p></li>
+<li><p>Contratos completos</p></li>
+<li><p>MVPs conquistados</p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Você precisa <strong>reivindicar</strong> as conquistas manualmente! Abra o menu <code class="docutils literal notranslate"><span class="pre">!achv</span></code> e clique nas conquistas desbloqueadas para receber seus pontos.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="indicacoes-rewards">
+<h3>Indicações (!rewards)<a class="headerlink" href="#indicacoes-rewards" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Indique amigos para o servidor e ganhe pontos!</p>
+<p><strong>Comando:</strong> <code class="docutils literal notranslate"><span class="pre">!rewards</span></code> ou <code class="docutils literal notranslate"><span class="pre">/rewards</span></code></p>
+<div class="table-wrapper colwidths-given docutils container" id="id3">
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">Sistema de Indicações</span><a class="headerlink" href="#id3" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 66.7%" />
+<col style="width: 33.3%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ação</p></th>
+<th class="head"><p>Pontos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Indicar um jogador novo</p></td>
+<td><p>50 pontos</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ser indicado (jogador novo)</p></td>
+<td><p>30 pontos</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Como funciona:</strong></p>
+<ol class="arabic simple">
+<li><p>Digite <code class="docutils literal notranslate"><span class="pre">!rewards</span></code> para ver seu código de indicação</p></li>
+<li><p>Compartilhe o código com amigos</p></li>
+<li><p>O amigo deve digitar <code class="docutils literal notranslate"><span class="pre">!rewards</span> <span class="pre">&lt;seu-código&gt;</span></code> ao entrar no servidor</p></li>
+<li><p>Ambos recebem as recompensas!</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>O jogador indicado precisa ter um mínimo de tempo jogado antes de poder reivindicar a recompensa (anti-farming).</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="steam-group-e-tag">
+<h3>Steam Group e Tag<a class="headerlink" href="#steam-group-e-tag" title="Link permanente para este cabeçalho">#</a></h3>
+<p><strong>Grupo Steam:</strong></p>
+<ul class="simple">
+<li><p>Entrar no grupo Steam do servidor: <strong>50 pontos</strong> (uma vez)</p></li>
+</ul>
+<p><strong>Tag “zen” no nome:</strong></p>
+<p>Se você tiver “zen” no seu nome Steam:</p>
+<ul class="simple">
+<li><p><strong>5 pontos por dia</strong></p></li>
+<li><p><strong>+2 pontos</strong> por dia de streak</p></li>
+<li><p>Streak máximo: <strong>7 dias</strong></p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>Adicionar “zen” ao seu nome é uma forma fácil de ganhar pontos extras diariamente!</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="apostas-bet">
+<h3>Apostas (!bet)<a class="headerlink" href="#apostas-bet" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Aposte seus pontos durante a rodada e tente multiplicá-los!</p>
+<p><strong>Comando:</strong> <code class="docutils literal notranslate"><span class="pre">!bet</span></code> ou <code class="docutils literal notranslate"><span class="pre">/bet</span></code></p>
+<div class="table-wrapper colwidths-given docutils container" id="id4">
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">Tipos de Aposta</span><a class="headerlink" href="#id4" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tipo</p></th>
+<th class="head"><p>Payout</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Apostar no time vencedor (Innocents/Traitors)</p></td>
+<td><p>2x</p></td>
+</tr>
+<tr class="row-odd"><td><p>Apostar em um jogador sobreviver</p></td>
+<td><p>3x</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Regras:</strong></p>
+<ul class="simple">
+<li><p>Apostas abrem no início da rodada</p></li>
+<li><p>Mínimo: 10 pontos</p></li>
+<li><p>Máximo: 200 pontos</p></li>
+<li><p>Você pode apostar mesmo estando morto (se habilitado)</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>Apostar é arriscado! Você perde os pontos apostados se perder a aposta.</p>
+</div>
+</section>
+</section>
+<section id="bonus-especiais">
+<h2>Bônus Especiais<a class="headerlink" href="#bonus-especiais" title="Link permanente para este cabeçalho">#</a></h2>
+<section id="doadores-vip">
+<h3>Doadores (VIP)<a class="headerlink" href="#doadores-vip" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Jogadores VIP, Donor ou Patron recebem multiplicadores:</p>
+<ul class="simple">
+<li><p><strong>1.5x</strong> em recompensas de tempo jogado</p></li>
+<li><p><strong>1.5x</strong> em recompensas de daily login</p></li>
+</ul>
+</section>
+<section id="tag-zen-no-nome">
+<h3>Tag “zen” no Nome<a class="headerlink" href="#tag-zen-no-nome" title="Link permanente para este cabeçalho">#</a></h3>
+<p>Jogadores com “zen” no nome Steam recebem:</p>
+<ul class="simple">
+<li><p><strong>1.1x</strong> em recompensas de tempo jogado</p></li>
+<li><p><strong>1.1x</strong> em recompensas de daily login</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>Os bônus de VIP e tag “zen” são <strong>cumulativos</strong>! Um VIP com “zen” no nome recebe 1.5 × 1.1 = <strong>1.65x</strong> nas recompensas aplicáveis.</p>
+</div>
+</section>
+</section>
+<section id="resumo-rapido">
+<h2>Resumo Rápido<a class="headerlink" href="#resumo-rapido" title="Link permanente para este cabeçalho">#</a></h2>
+<div class="table-wrapper colwidths-given docutils container" id="id5">
+<table class="docutils align-default" id="id5">
+<caption><span class="caption-text">Todas as Fontes de Pontos</span><a class="headerlink" href="#id5" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 35.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Fonte</p></th>
+<th class="head"><p>Descrição</p></th>
+<th class="head"><p>Pontos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Tempo Jogado</p></td>
+<td><p>A cada 10 minutos</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Daily Login</p></td>
+<td><p>Por dia + streak</p></td>
+<td><p>20-55</p></td>
+</tr>
+<tr class="row-even"><td><p>MVP</p></td>
+<td><p>Top 3 da rodada</p></td>
+<td><p>10-30</p></td>
+</tr>
+<tr class="row-odd"><td><p>Contrato Principal</p></td>
+<td><p>Traitor/Detetive</p></td>
+<td><p>25-30</p></td>
+</tr>
+<tr class="row-even"><td><p>Contrato Secundário</p></td>
+<td><p>C4/Corpo encontrado</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Conquistas</p></td>
+<td><p>Marcos variados</p></td>
+<td><p>Variável</p></td>
+</tr>
+<tr class="row-even"><td><p>Indicações</p></td>
+<td><p>Por indicação</p></td>
+<td><p>30-50</p></td>
+</tr>
+<tr class="row-odd"><td><p>Steam Group</p></td>
+<td><p>Uma vez</p></td>
+<td><p>50</p></td>
+</tr>
+<tr class="row-even"><td><p>Tag “zen”</p></td>
+<td><p>Por dia + streak</p></td>
+<td><p>5-19</p></td>
+</tr>
+<tr class="row-odd"><td><p>Apostas</p></td>
+<td><p>Multiplicador se ganhar</p></td>
+<td><p>2-3x</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="desempenho.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Guia de melhoria de desempenho</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="ranking.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Sistema de Ranking</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Zenworks
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            <div class="last-updated">
+              Last updated on 04 jan. 2026</div>
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">ZenShop</a><ul>
+<li><a class="reference internal" href="#formas-de-ganhar-pontos">Formas de Ganhar Pontos</a><ul>
+<li><a class="reference internal" href="#tempo-jogado-presenca">Tempo Jogado (Presença)</a></li>
+<li><a class="reference internal" href="#daily-login-recompensa-diaria">Daily Login (Recompensa Diária)</a></li>
+<li><a class="reference internal" href="#mvp-melhor-jogador-da-rodada">MVP (Melhor Jogador da Rodada)</a></li>
+<li><a class="reference internal" href="#contratos">Contratos</a><ul>
+<li><a class="reference internal" href="#traitor">Traitor</a></li>
+<li><a class="reference internal" href="#detetive">Detetive</a></li>
+<li><a class="reference internal" href="#missoes-secundarias">Missões Secundárias</a></li>
+<li><a class="reference internal" href="#streak-de-contratos">Streak de Contratos</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conquistas-achv">Conquistas (!achv)</a></li>
+<li><a class="reference internal" href="#indicacoes-rewards">Indicações (!rewards)</a></li>
+<li><a class="reference internal" href="#steam-group-e-tag">Steam Group e Tag</a></li>
+<li><a class="reference internal" href="#apostas-bet">Apostas (!bet)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bonus-especiais">Bônus Especiais</a><ul>
+<li><a class="reference internal" href="#doadores-vip">Doadores (VIP)</a></li>
+<li><a class="reference internal" href="#tag-zen-no-nome">Tag “zen” no Nome</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resumo-rapido">Resumo Rápido</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=f0742d3a"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/tabs.js?v=3ee01567"></script>
+    <script src="../_static/translations.js?v=000972dd"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    </body>
+</html>

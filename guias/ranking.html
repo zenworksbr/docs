@@ -1,0 +1,761 @@
+<!doctype html>
+<html class="no-js" lang="pt-BR" data-content_root="">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Índice" href="../genindex.html" /><link rel="search" title="Buscar" href="../search.html" /><link rel="next" title="ZenShop" href="zenshop.html" /><link rel="prev" title="Tutorial básico de TTT" href="tutorial.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.png"/><!-- Generated with Sphinx 7.1.2 and Furo 2024.01.29 -->
+        <title>Sistema de Ranking - Zenworks</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/_static/css/custom.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #282a36;
+  --color-code-foreground: #f8f8f2;
+  --color-code-background: #1a162;
+  --color-code-foreground: #1a162c;
+  --color-problematic: #ee5151;
+  --color-foreground-primary: #cecece;
+  --color-foreground-secondary: #cecece;
+  --color-foreground-muted: #f05727;
+  --color-foreground-border: #cecece;
+  --color-background-primary: #36314d;
+  --color-background-secondary: #1a162c;
+  --color-background-hover: #36314d;
+  --color-background-hover--transparent: #f05727;
+  --color-background-border: rgba(0,0,0,0);
+  --color-background-item: black;
+  --color-announcement-background: #000000dd;
+  --color-announcement-text: #eeebee;
+  --color-brand-primary: #cecece;
+  --color-brand-content: #f05727;
+  --color-highlighted-background: #083563;
+  --color-guilabel-background: #08356380;
+  --color-guilabel-border: #13395f80;
+  --color-highlight-on-target: #330;
+  --color-admonition-background: #1a162c;
+  --color-card-background: #18181a;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #282a36;
+  --color-code-foreground: #f8f8f2;
+  --color-code-background: #1a162;
+  --color-code-foreground: #1a162c;
+  --color-problematic: #ee5151;
+  --color-foreground-primary: #cecece;
+  --color-foreground-secondary: #cecece;
+  --color-foreground-muted: #f05727;
+  --color-foreground-border: #cecece;
+  --color-background-primary: #36314d;
+  --color-background-secondary: #1a162c;
+  --color-background-hover: #36314d;
+  --color-background-hover--transparent: #f05727;
+  --color-background-border: rgba(0,0,0,0);
+  --color-background-item: black;
+  --color-announcement-background: #000000dd;
+  --color-announcement-text: #eeebee;
+  --color-brand-primary: #cecece;
+  --color-brand-content: #f05727;
+  --color-highlighted-background: #083563;
+  --color-guilabel-background: #08356380;
+  --color-guilabel-border: #13395f80;
+  --color-highlight-on-target: #330;
+  --color-admonition-background: #1a162c;
+  --color-card-background: #18181a;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Zenworks</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../_static/favicon.png" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">Zenworks</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Buscar" name="q" aria-label="Buscar">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Tópicos:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../novidades.html">Novidades</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doacoes.html">Doações para o servidor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord.html">Discord da comunidade</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../regras/index.html">Regras do servidor</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Regras do servidor</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../regras/inocentes.html">Regras para Inocentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/detetives.html">Regras para Detetives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/traidores.html">Regras de Traidores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/punicoes.html">Lista de punições</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/glossario.html">Glossário - esclarecimentos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../regras/banimentos.html">Banimentos permanentes</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Guias</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Guias</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="tutorial.html">Tutorial básico de TTT</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Sistema de Ranking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="zenshop.html">ZenShop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="desempenho.html">Guia de melhoria de desempenho</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chromium.html">Correção para páginas WEB do servidor exibidas incorretamente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="crosshair.html">Como colocar crosshair personalizado</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="sistema-de-ranking">
+<h1>Sistema de Ranking<a class="headerlink" href="#sistema-de-ranking" title="Link permanente para este cabeçalho">#</a></h1>
+<p>O servidor Zenworks TTT possui um sistema de ranking competitivo inspirado em jogos como CS:GO. Sua classificação é determinada pelos pontos que você acumula ao jogar.</p>
+<section id="como-ganhar-pontos">
+<h2>Como Ganhar Pontos<a class="headerlink" href="#como-ganhar-pontos" title="Link permanente para este cabeçalho">#</a></h2>
+<p>Você ganha pontos de ranking realizando ações positivas durante as partidas:</p>
+<div class="table-wrapper colwidths-given docutils container" id="id1">
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Ações que concedem pontos</span><a class="headerlink" href="#id1" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 75.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ação</p></th>
+<th class="head"><p>Pontos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Vitória como Traitor</strong></p></td>
+<td><p>+50</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Matar Detetive (como Traitor)</strong></p></td>
+<td><p>+25</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Vitória como Inocente</strong></p></td>
+<td><p>+20</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>MVP 1º lugar</strong></p></td>
+<td><p>+20</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Matar Traitor (como Inocente/Detetive)</strong></p></td>
+<td><p>+15</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Matar alguém (como Traitor)</strong></p></td>
+<td><p>+10</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>MVP 2º lugar</strong></p></td>
+<td><p>+10</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Sobreviver como Inocente (bônus)</strong></p></td>
+<td><p>+5</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>MVP 3º lugar</strong></p></td>
+<td><p>+5</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Encontrar um corpo</strong></p></td>
+<td><p>+2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Dica</p>
+<p>O sistema de MVP premia os melhores jogadores da rodada. Foque em ações úteis para seu time para ter mais chances de ser MVP!</p>
+</div>
+</section>
+<section id="como-perder-pontos">
+<h2>Como Perder Pontos<a class="headerlink" href="#como-perder-pontos" title="Link permanente para este cabeçalho">#</a></h2>
+<p>Cuidado! Algumas ações fazem você perder pontos:</p>
+<div class="table-wrapper colwidths-given docutils container" id="id2">
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Ações que removem pontos</span><a class="headerlink" href="#id2" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 75.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Ação</p></th>
+<th class="head"><p>Pontos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Punição por slay (RDM)</strong></p></td>
+<td><p>-50</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Derrota como Traitor (time perdeu)</strong></p></td>
+<td><p>-25</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Morrer como Traitor</strong></p></td>
+<td><p>-10</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Morrer como Detetive</strong></p></td>
+<td><p>-10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Aviso</p>
+<p>Evite matar jogadores do seu próprio time! Além de prejudicar a partida, você pode ser punido com slay e perder 50 pontos.</p>
+</div>
+</section>
+<section id="tabela-de-ranks">
+<h2>Tabela de Ranks<a class="headerlink" href="#tabela-de-ranks" title="Link permanente para este cabeçalho">#</a></h2>
+<p>Confira todos os ranks disponíveis e os pontos necessários para alcançá-los:</p>
+<div class="table-wrapper colwidths-given docutils container" id="id3">
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">Hierarquia de Ranks</span><a class="headerlink" href="#id3" title="Link Permanente para essa tabela">#</a></caption>
+<colgroup>
+<col style="width: 35.0%" />
+<col style="width: 35.0%" />
+<col style="width: 30.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tier</p></th>
+<th class="head"><p>Ranks</p></th>
+<th class="head"><p>Pontos Necessários</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Cobre</strong></p></td>
+<td><p>Cobre V → Cobre I</p></td>
+<td><p>0 - 599</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Bronze</strong></p></td>
+<td><p>Bronze V → Bronze I</p></td>
+<td><p>600 - 1.499</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Prata</strong></p></td>
+<td><p>Prata V → Prata I</p></td>
+<td><p>1.500 - 2.999</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Ouro</strong></p></td>
+<td><p>Ouro V → Ouro I</p></td>
+<td><p>3.000 - 3.999</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Platina</strong></p></td>
+<td><p>Platina V → Platina I</p></td>
+<td><p>4.000 - 9.999</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Esmeralda</strong></p></td>
+<td><p>Esmeralda V → Esmeralda I</p></td>
+<td><p>10.000 - 19.999</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Diamante</strong></p></td>
+<td><p>Diamante V → Diamante I</p></td>
+<td><p>20.000 - 34.999</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Campeão</strong></p></td>
+<td><p>Campeão</p></td>
+<td><p>35.000+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Dentro de cada tier, você progride do nível V (mais baixo) até o nível I (mais alto) antes de subir para o próximo tier.</p>
+</div>
+</section>
+<section id="detalhes-dos-ranks">
+<h2>Detalhes dos Ranks<a class="headerlink" href="#detalhes-dos-ranks" title="Link permanente para este cabeçalho">#</a></h2>
+<section id="cobre">
+<h3>Cobre<a class="headerlink" href="#cobre" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Cobre V</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cobre IV</p></td>
+<td><p>150</p></td>
+</tr>
+<tr class="row-even"><td><p>Cobre III</p></td>
+<td><p>300</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cobre II</p></td>
+<td><p>500</p></td>
+</tr>
+<tr class="row-even"><td><p>Cobre I</p></td>
+<td><p>600</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="bronze">
+<h3>Bronze<a class="headerlink" href="#bronze" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Bronze V</p></td>
+<td><p>600</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bronze IV</p></td>
+<td><p>750</p></td>
+</tr>
+<tr class="row-even"><td><p>Bronze III</p></td>
+<td><p>900</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bronze II</p></td>
+<td><p>1.100</p></td>
+</tr>
+<tr class="row-even"><td><p>Bronze I</p></td>
+<td><p>1.300</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="prata">
+<h3>Prata<a class="headerlink" href="#prata" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Prata V</p></td>
+<td><p>1.500</p></td>
+</tr>
+<tr class="row-odd"><td><p>Prata IV</p></td>
+<td><p>1.800</p></td>
+</tr>
+<tr class="row-even"><td><p>Prata III</p></td>
+<td><p>2.100</p></td>
+</tr>
+<tr class="row-odd"><td><p>Prata II</p></td>
+<td><p>2.400</p></td>
+</tr>
+<tr class="row-even"><td><p>Prata I</p></td>
+<td><p>2.800</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="ouro">
+<h3>Ouro<a class="headerlink" href="#ouro" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Ouro V</p></td>
+<td><p>3.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ouro IV</p></td>
+<td><p>3.200</p></td>
+</tr>
+<tr class="row-even"><td><p>Ouro III</p></td>
+<td><p>3.400</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ouro II</p></td>
+<td><p>3.600</p></td>
+</tr>
+<tr class="row-even"><td><p>Ouro I</p></td>
+<td><p>3.800</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="platina">
+<h3>Platina<a class="headerlink" href="#platina" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Platina V</p></td>
+<td><p>4.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Platina IV</p></td>
+<td><p>5.000</p></td>
+</tr>
+<tr class="row-even"><td><p>Platina III</p></td>
+<td><p>6.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Platina II</p></td>
+<td><p>7.000</p></td>
+</tr>
+<tr class="row-even"><td><p>Platina I</p></td>
+<td><p>8.000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="esmeralda">
+<h3>Esmeralda<a class="headerlink" href="#esmeralda" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Esmeralda V</p></td>
+<td><p>10.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Esmeralda IV</p></td>
+<td><p>12.000</p></td>
+</tr>
+<tr class="row-even"><td><p>Esmeralda III</p></td>
+<td><p>14.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Esmeralda II</p></td>
+<td><p>16.000</p></td>
+</tr>
+<tr class="row-even"><td><p>Esmeralda I</p></td>
+<td><p>18.000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="diamante">
+<h3>Diamante<a class="headerlink" href="#diamante" title="Link permanente para este cabeçalho">#</a></h3>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57.1%" />
+<col style="width: 42.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Rank</p></th>
+<th class="head"><p>Pontos Mínimos</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Diamante V</p></td>
+<td><p>20.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Diamante IV</p></td>
+<td><p>23.000</p></td>
+</tr>
+<tr class="row-even"><td><p>Diamante III</p></td>
+<td><p>26.000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Diamante II</p></td>
+<td><p>29.000</p></td>
+</tr>
+<tr class="row-even"><td><p>Diamante I</p></td>
+<td><p>32.000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="campeao">
+<h3>Campeão<a class="headerlink" href="#campeao" title="Link permanente para este cabeçalho">#</a></h3>
+<p>O rank mais alto do servidor! Requer <strong>35.000 pontos</strong> ou mais.</p>
+</section>
+</section>
+<section id="dicas-para-subir">
+<h2>Dicas para Subir<a class="headerlink" href="#dicas-para-subir" title="Link permanente para este cabeçalho">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Jogue seu papel corretamente</strong> - Ações coerentes com seu papel dão mais pontos</p></li>
+<li><p><strong>Sobreviva</strong> - Morrer como Traitor ou Detetive custa pontos</p></li>
+<li><p><strong>Busque o MVP</strong> - Os bônus de MVP são significativos</p></li>
+<li><p><strong>Evite RDM</strong> - A punição por slay é severa (-50 pontos)</p></li>
+<li><p><strong>Encontre corpos</strong> - Cada corpo encontrado dá +2 pontos</p></li>
+</ol>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="zenshop.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">ZenShop</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="tutorial.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Tutorial básico de TTT</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Zenworks
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            <div class="last-updated">
+              Last updated on 04 jan. 2026</div>
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Sistema de Ranking</a><ul>
+<li><a class="reference internal" href="#como-ganhar-pontos">Como Ganhar Pontos</a></li>
+<li><a class="reference internal" href="#como-perder-pontos">Como Perder Pontos</a></li>
+<li><a class="reference internal" href="#tabela-de-ranks">Tabela de Ranks</a></li>
+<li><a class="reference internal" href="#detalhes-dos-ranks">Detalhes dos Ranks</a><ul>
+<li><a class="reference internal" href="#cobre">Cobre</a></li>
+<li><a class="reference internal" href="#bronze">Bronze</a></li>
+<li><a class="reference internal" href="#prata">Prata</a></li>
+<li><a class="reference internal" href="#ouro">Ouro</a></li>
+<li><a class="reference internal" href="#platina">Platina</a></li>
+<li><a class="reference internal" href="#esmeralda">Esmeralda</a></li>
+<li><a class="reference internal" href="#diamante">Diamante</a></li>
+<li><a class="reference internal" href="#campeao">Campeão</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dicas-para-subir">Dicas para Subir</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=f0742d3a"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/tabs.js?v=3ee01567"></script>
+    <script src="../_static/translations.js?v=000972dd"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    </body>
+</html>
