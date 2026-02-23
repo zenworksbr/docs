@@ -1,0 +1,128 @@
+*********
+Novidades
+*********
+
+Acompanhe as últimas atualizações do servidor zenworks.
+
+=====================
+v1.143.0 (23/02/2026)
+=====================
+
+**Novidades:**
+
+- **autorun:** adicionar carregamento automático de recursos locais (`fa24f2c <https://github.com/zenworksbr/addons/commit/fa24f2ce211e3cb036b93bf20782ea812e03ed8c>`_)
+- **damagelogs:** modernizar popup de perdoar denúncia (`5922799 <https://github.com/zenworksbr/addons/commit/59227999cbf0720fe96a8f8655f3d38644adee6b>`_)
+- **damagelogs:** modernizar popup de relato (`fd63cff <https://github.com/zenworksbr/addons/commit/fd63cff013cb8ec7ef677fdcb64c6b644c6a515a>`_)
+- **damagelogs:** redesenhar popup de denúncia (`cff9622 <https://github.com/zenworksbr/addons/commit/cff9622b07c69b728755859d8be285f8196aa443>`_)
+
+**Correções:**
+
+- **autorun:** garantir fonte enviada antes da conexão (`ebff112 <https://github.com/zenworksbr/addons/commit/ebff112798d15c34333b8c4d9cd60af22e5e407c>`_)
+- **autorun:** normalizar descrição do round especial (`b9c506a <https://github.com/zenworksbr/addons/commit/b9c506a5cf299183282c1a154ed01b17a97dd664>`_)
+
+----
+
+=====================
+v1.142.0 (17/01/2026)
+=====================
+
+**Novidades:**
+
+- **damagelogs:** adicionar aba de logs com filtro (`3c62192 <https://github.com/zenworksbr/addons/commit/3c62192de0261f4b1df8a6019aa18513e6d0089f>`_)
+- **damagelogs:** adicionar interface moderna de report (`433ab45 <https://github.com/zenworksbr/addons/commit/433ab458973e5faaa5bc02d7a48ff6bea63649ba>`_)
+- **damagelogs:** modernizar aba de logs antigos (`b92ca08 <https://github.com/zenworksbr/addons/commit/b92ca08048ab683364d46bf52ae77c2090117e11>`_)
+- **damagelogs:** modernizar menu moderno com abas (`0426d82 <https://github.com/zenworksbr/addons/commit/0426d82ce9b1916ee411d8dc6e9c308e736cffe3>`_)
+- **damagelogs:** permitir destacar jogador no menu moderno (`12fbc71 <https://github.com/zenworksbr/addons/commit/12fbc716d68a3b2300791cc043a3d4f7b935a4e1>`_)
+- **notify:** modernizar notificações visuais (`7726c46 <https://github.com/zenworksbr/addons/commit/7726c4637a23a724609c53375f5c3c6b85e39f4d>`_)
+- **scoreboard:** detectar deathmatch de espectadores (`c97a5a2 <https://github.com/zenworksbr/addons/commit/c97a5a2c36aefd6af3d0cbf1dd1acba4a3d44f0b>`_)
+- **zenbinds:** adicionar botão resetar binds (`b4e5f1b <https://github.com/zenworksbr/addons/commit/b4e5f1bcac2b1508df98e1caed1cba6f0129ea19>`_)
+- **zenbinds:** carregar binds por jogador (`d403eb1 <https://github.com/zenworksbr/addons/commit/d403eb1d88694e63f9d8dad9ca47f45d819d1e95>`_)
+- **zenbinds:** permitir resetar binds nativos (`14df671 <https://github.com/zenworksbr/addons/commit/14df671d4e142dce3a897b3a48d50a97a4169091>`_)
+
+**Correções:**
+
+- **damagelogs:** adicionar cl_menu_modern.lua ao AddCSLuaFile (`1c592ec <https://github.com/zenworksbr/addons/commit/1c592ec7dd1f27e431ad87901ad53acf3f4d558d>`_)
+- **damagelogs:** checar componentes antes de atualizar (`2702010 <https://github.com/zenworksbr/addons/commit/270201096df3c7c2fadd359a6fa02d0516bbf4cb>`_)
+- **damagelogs:** corrigir crashes e implementar aba de Logs (`5b9deea <https://github.com/zenworksbr/addons/commit/5b9deead74ea0b18ed1ef95a7efd336fe82028e0>`_)
+- **damagelogs:** corrigir visibilidade do texto de conclusão (`0caead8 <https://github.com/zenworksbr/addons/commit/0caead86a3f88d7c311f0460472edfb33739e719>`_)
+- **damagelogs:** forçar texto branco em linhas novas (`757e234 <https://github.com/zenworksbr/addons/commit/757e23420f98ebc3ae8b11b94fda1a9fb6237729>`_)
+- **damagelogs:** forçar texto branco nas linhas do log (`5a99cbb <https://github.com/zenworksbr/addons/commit/5a99cbb13cb0646b503be3ef55dc63559ebe95f7>`_)
+- **damagelogs:** garantir texto branco do log moderno (`533f31e <https://github.com/zenworksbr/addons/commit/533f31e90e258e78de1a8bb9ac6f90da9319fc5e>`_)
+- **damagelogs:** garantir texto branco em relatórios modernos (`fe99395 <https://github.com/zenworksbr/addons/commit/fe99395d73e122bbb156d97249061ca74e159fe1>`_)
+- **damagelogs:** preparar ReportsInfo para compatibilidade (`fc3a54e <https://github.com/zenworksbr/addons/commit/fc3a54e2d27410c5b647feb14d801d242fd18318>`_)
+- **sb:** remover hook do SpecDM ao iniciar placar (`113df2f <https://github.com/zenworksbr/addons/commit/113df2fec6b3e259e57da923e8d6ff8771f238d1>`_)
+- **sb:** reorganizar blocos de grupos no placar (`676951b <https://github.com/zenworksbr/addons/commit/676951bd93b39129fa2476adce984ef21f6238dc>`_)
+- **scoreboard:** ajustar exibição do mapa no placar (`34f8851 <https://github.com/zenworksbr/addons/commit/34f8851463e93c2c87b354f8fdfc5aadb0d3d67d>`_)
+- **special_rounds:** validar round infectado ativo antes de ações (`175a97a <https://github.com/zenworksbr/addons/commit/175a97ad0c205e12ec05d4e16a7807858b37cef4>`_)
+- **zenbinds:** aplicar defaults apenas com tecla livre (`6af8241 <https://github.com/zenworksbr/addons/commit/6af824189a91c9c3413a5313d3fb975462a8d991>`_)
+- **zenbinds:** carregar apenas binds permitidos (`589a83d <https://github.com/zenworksbr/addons/commit/589a83d34ff53dc92cb16b33f22da58326d9c93b>`_)
+- **zenbinds:** carregar binds após inicialização (`c03134f <https://github.com/zenworksbr/addons/commit/c03134f118a3067c90afddcf97a3183747490f68>`_)
+
+----
+
+================================
+v1.141.1 ~ v1.141.2 (16/01/2026)
+================================
+
+**Correções:**
+
+- **chat-box:** manter texto especial no ttt (`e56f8fe <https://github.com/zenworksbr/addons/commit/e56f8fe49ae7d586d8daed7ebcfc5c9fd56a8ba5>`_)
+- **chat-box:** mostrar papel em badge de chat de grupo (`f28a230 <https://github.com/zenworksbr/addons/commit/f28a230f7b2001cec95f9d12c8a734a041c6f234>`_)
+- **chat-box:** retornar texto ao interceptar chat interno (`6e038c2 <https://github.com/zenworksbr/addons/commit/6e038c240f57ca94864f3d6f5ca5f5dad70f08ae>`_)
+- **chat-box:** usar todos jogadores no terrortown (`06113ad <https://github.com/zenworksbr/addons/commit/06113ad551ff0480d5a8cef7707ee57d43d7493f>`_)
+- **gun-game:** adicionar munição reserva para awp espectro (`fde3745 <https://github.com/zenworksbr/addons/commit/fde374558e133ece86cb84805695a8ad1981739a>`_)
+- **infected:** limitar armas por hold type (`cf009b8 <https://github.com/zenworksbr/addons/commit/cf009b8870f516af8f7553bf1cb9d94a85402520>`_)
+- **infected:** usar GetHoldType direto (`976703f <https://github.com/zenworksbr/addons/commit/976703f96ae9bd03f1fe544ca79ef925845b02ec>`_)
+- **powerround-vote:** ajustar duração de votação e encerrar (`4c2ce91 <https://github.com/zenworksbr/addons/commit/4c2ce91d6eb6ddaf3071a1929afbfac100d1647d>`_)
+- **powerround-vote:** priorizar indicações na votação (`da7e054 <https://github.com/zenworksbr/addons/commit/da7e054c5553f1bee7ab17d0487603fb9692bf0e>`_)
+- **chat-box:** alinhar badge e traduzir estado morto (`fa94d02 <https://github.com/zenworksbr/addons/commit/fa94d02a2d2da174dd1f572ca5fe6fd5c4b47964>`_)
+- **chat-box:** prevenir loop em chat interno (`14ca1ca <https://github.com/zenworksbr/addons/commit/14ca1ca706d72016840515a0eb6bced6ea50c0f1>`_)
+
+----
+
+================================
+v1.139.0 ~ v1.141.0 (15/01/2026)
+================================
+
+**Novidades:**
+
+- **chat-box:** mostrar badge de jogador morto (`d364251 <https://github.com/zenworksbr/addons/commit/d364251cf8bae3ab9f145473e6409d2cf277a840>`_)
+- **ttt_ranks:** adicionar escalonamento por contagem de jogadores (`346553e <https://github.com/zenworksbr/addons/commit/346553e199acfce2a8467d50c05a3dea8aa6b937>`_)
+- **ttt_ranks:** aplicar escalonamento por jogadores (`8ea3f80 <https://github.com/zenworksbr/addons/commit/8ea3f80691ccc1d1d303bf749aa21bada349eed8>`_)
+- **ttt_special_rounds:** adicionar rodada batalha de facas (`386be26 <https://github.com/zenworksbr/addons/commit/386be26e20846ef98968169487fed879f5384f04>`_)
+- **ttt_powerround_vote:** adicionar novo sistema de votação de power rounds (`5a9bccb <https://github.com/zenworksbr/addons/commit/5a9bccb152f5a226d35bb81446f8c883cc52e8de>`_)
+
+**Correções:**
+
+- **ttt_powerround_vote:** garantir integração com special rounds (`b9d6fb8 <https://github.com/zenworksbr/addons/commit/b9d6fb83674604408a5100162588d7f31aba6316>`_)
+- **ttt_special_rounds:** aguarde voto de powerround antes de rodadas especiais (`ff5016e <https://github.com/zenworksbr/addons/commit/ff5016edb331d023ac4f809f8035df1910905e6e>`_)
+- **ttt_quickswap:** garantir troca quando slot ocupado (`4d9e57d <https://github.com/zenworksbr/addons/commit/4d9e57d0ae800140b2e8524eb762aedbf8d33db1>`_)
+- **zenchat:** corrigir comandos com targets na lista do autocomplete (`e83b0f0 <https://github.com/zenworksbr/addons/commit/e83b0f01c515e3cd461ce6b9aad48d1a28202572>`_)
+- **player:** alternar música do MVP com comando único (`510e426 <https://github.com/zenworksbr/addons/commit/510e4265c8d104089a7174b4196e4bbe0873064e>`_)
+- **player:** tornar !mvpmute comando toggle (`4ea4de3 <https://github.com/zenworksbr/addons/commit/4ea4de384e03a7158604e4246c619352054a3f76>`_)
+- **ttt_powerround_vote:** aprimorar suporte a acentos, word-wrap e layout de avatares (`9c97506 <https://github.com/zenworksbr/addons/commit/9c975065b25f195ee8b0517aaefb8eec952175a2>`_)
+- **ttt_powerround_vote:** corrigir erro de animação e alinhar UI com zen_mapvote (`b62c0af <https://github.com/zenworksbr/addons/commit/b62c0afbdd72076997cf65508269b57bd8462d1e>`_)
+- **zenchat:** corrigir autocomplete de filtros de grupos de jogadores do ULX (`4151158 <https://github.com/zenworksbr/addons/commit/4151158019642d0ce6b8f995134bea1deb89333e>`_)
+- **zenchat:** corrigir exibição de autocomplete dos filtros sem @ na composição (`67fa485 <https://github.com/zenworksbr/addons/commit/67fa4850723f69e21492e7c7d27f93218c7be8af>`_)
+
+----
+
+================================
+v1.126.0 ~ v1.126.1 (09/01/2026)
+================================
+
+**Novidades:**
+
+- **ashop_admin:** adicionar operacoes em lote para itens (`69c70d6 <https://github.com/zenworksbr/addons/commit/69c70d6e626f92f4faf782593e5d1d49e77aa37e>`_)
+- **ashop_cases:** melhorar notificacoes de abertura de caixa (`63f737e <https://github.com/zenworksbr/addons/commit/63f737e8657663db394a22b13552a3248870bb2f>`_)
+
+**Correções:**
+
+- **ashop_sync:** corrigir comparacao de checksum CRC (`6ce5a3d <https://github.com/zenworksbr/addons/commit/6ce5a3db29e7a5cae718b398637546d36bffbbad>`_)
+- **ashop_items:** prevenir duplicatas no server ao criar itens (`92d5ca7 <https://github.com/zenworksbr/addons/commit/92d5ca77fe59f0f7ed206dca281f15e348120513>`_)
+
+**Outras alterações:**
+
+- **ashop_finishers:** carregar animacoes apenas no hover (`b107874 <https://github.com/zenworksbr/addons/commit/b1078745f7b5b1c111a17659f00ca271ba7b6f59>`_)
+- **ashop_sync:** adicionar compressao, checksum e retry no sync de itens (`0acec68 <https://github.com/zenworksbr/addons/commit/0acec68d47ae66c50f259fee33f0a8331c922e8f>`_)
+
